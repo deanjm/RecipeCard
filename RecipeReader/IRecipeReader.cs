@@ -1,0 +1,7 @@
+﻿namespace RecipeReader
+{
+    interface IRecipeReader
+    {
+
+    }
+}
