@@ -9,4 +9,8 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RecipeReader\RecipeReader.csproj" />
+  </ItemGroup>
+
 </Project>

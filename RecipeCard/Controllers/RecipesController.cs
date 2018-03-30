@@ -15,7 +15,9 @@ namespace RecipeCard.Controllers
         [ActionName("Read")]
         public IActionResult Read(string url)
         {
-            return Json("Not implemented");
+            var reader = new RecipeReader();
+            var recipe = reader.ReadFromUrl(url);
+            return Json(recipe);
         }
     }
 }
